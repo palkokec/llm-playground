@@ -1,0 +1,11 @@
+[package]
+name = "llm-orca-prompt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+orca = { git = "https://github.com/scrippt-tech/orca", package = "orca-core" }
+tokio = { version = "1.12.0", features = ["full"] }
+anyhow = "1.0.75"
